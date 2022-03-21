@@ -33,12 +33,12 @@ namespace _180322_ProblemSolving._01Dices
         }
 
         //Methods
-        //Using diceSizes first and last index + 1 in GetRandom... method to set a random value in the returning result.
+        //Using DiceSizes first and last index + 1 in GetRandom... method to return a random value.
         public int ThrowDice()
         {
             return GetRandomNumber(DiceSize[0], DiceSize[5] + 1);
         }
-        //Using random to return a random value between min and max.
+        //Using Rnd to return a random value between min and max.
         private static int GetRandomNumber(int min, int max)
         {
             lock (Rnd) //Synchronize
@@ -46,7 +46,7 @@ namespace _180322_ProblemSolving._01Dices
                 return Rnd.Next(min, max);
             }
         }
-
+        //Overriden ToString() 
         public override string ToString()
         {
             return $"Player: {Id}.\n{DiceColor} dice, rolled: {Result}";
