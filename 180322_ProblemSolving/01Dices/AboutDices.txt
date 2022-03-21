@@ -1,0 +1,17 @@
+﻿01Dices
+
+Description:
+In this exercies I create a little console game where there are two players
+throwing their dice five times each and the player with the highest total score wins!
+
+Codeprocess:
+
+Check out the code comments for more detailed info.
+
+First I created the class named Dice, for creating a dice and methods for the dice.
+
+Then I created a second class which is static named RunDice, where I setup the game.
+
+And in the end i'm using RunDice in Program.cs to run the game.
+
+
