@@ -9,4 +9,9 @@
     <StartupObject></StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="02BinarySearch\" />
+    <Folder Include="03AnagramChecker\" />
+  </ItemGroup>
+
 </Project>
